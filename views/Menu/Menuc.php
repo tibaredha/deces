@@ -7,8 +7,11 @@ echo '<li><a href="'.URL.'"><span>What s&nbsp;new</span></a></li>';
 echo '<li><a href="'.URL.'"><span>Services</span></a></li>';
 echo '<li><a href="'.URL.'"><span>['.Session::get('structure').']</span></a></li>';
 echo '<li><a href="'.URL.'Users/Profil/'.Session::get('id').'/1"><span>['.Session::get('login').']</span></a></li>';
-echo '<li><a href="'.URL.'Login/Logout/'.Session::get('id').'"><span>[Logout]</span></a></li>';
+echo '<li><a href="'.URL.'Login/Logout/'.Session::get('id').'" onclick="PlaySound()"  ><span>[Logout]</span></a></li>';
 echo '</ul>';
 echo '</div>';
 ?>
+<script>function PlaySound() {var sound = new Audio("./public/beep-09.wav");sound.play();}</script>
+
+
 		

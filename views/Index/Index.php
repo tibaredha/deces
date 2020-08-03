@@ -18,7 +18,7 @@
 			<li>Deverait permettre d'ameliorer considerablement le circuit du certificat de décès</li>
 		</ul>
 		<p>&nbsp;<br>
-		<strong>DR R.Tiba </strong>MISP<br>
+		<strong>Dr R.Tiba </strong>MISP<br>
 		<br>
 		</p>	
 	</div>
@@ -26,7 +26,8 @@
 		<h2 class="subtitle">About <span>Us</span></h2>
 		<p><strong>Direction de la Santé et de la Population </strong>Djelfa<br>Service d'epidemiologie et de médecine preventive</p>
 		<p>&nbsp;</p>
-		<p><strong>Dr A.Boulaouche : Médecin Spécialiste en Épidemiologie</p>
+		<!--
+		<p><strong>Dr A.Boulaouche : Médecin Spécialiste en Épidemiologie</p>-->
 		<p><strong>Dr R.Tiba : Médecin Inspecteur Santé Publique</p>
 		<p>&nbsp;</p>
 		<p align="right"><a href="#" class="more">Read More</a></p>

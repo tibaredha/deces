@@ -11,7 +11,7 @@ class Login_Model extends Model
 	public function Run()
 	{
 	    
-		$sth = $this->db->prepare("SELECT * FROM users WHERE login = :login AND password = :password  and token = '' ");		
+		$sth = $this->db->prepare("SELECT * FROM users WHERE login = :login AND password = :password  and  token = '' ");		
 		$sth->execute(array(
 			':login'    => stripslashes($_POST['login']),
 			':password' => md5(stripslashes($_POST['password']))
@@ -65,12 +65,12 @@ class Login_Model extends Model
 			if($programme == 1) 
 			{
 				switch($role) {
-					case "1" : header('location: '.URL.'administrateur');break;
-					case "2" : header('location: '.URL.'dashboard');break;
-					case "3" : header('location: '.URL.'dashboard');break;
+					case "1" : header('location: '.URL.'Administrateur');break;
+					case "2" : header('location: '.URL.'Dashboard');break;
+					case "3" : header('location: '.URL.'Dashboard');break;
 				}
 			} 
-			if($_POST['demgraphie']== 2) {header('location: '.URL.'naissance');}
+			if($_POST['demgraphie']== 2) {header('location: '.URL.'Naissance');}
 			if($_POST['demgraphie']== 3) {header('location: '.URL.'BNM');}
 			if($_POST['demgraphie']== 4) {header('location: '.URL.'Evacuation');}
 	}
