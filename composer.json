@@ -1,0 +1,15 @@
+{
+    "name": "cw/deces",
+    "authors": [
+        {
+            "name": "tibaredha",
+            "email": "tibaredha@yahoo.fr"
+        }
+    ],
+    "require": {
+        "tecnickcom/tcpdf": "^6.3",
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi": "^2.3"   
+    }
+	
+}

@@ -1,0 +1,39 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width: 33%;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#entete{	
+text-align: center;		
+}
+
+#comb_wilayad,#comb_communed,#comb_wilaya,#comb_commune,#comb_wilayar,#comb_communer{
+border-radius: 10px;	
+background-color: #6cd900;color: black;
+height: 32px;width: 155px;font-weight: bold;
+}
+
+#fname,#lname,#fnamep,#lnamem,#lsexe,#ldnaisance,#ldéces{
+border-radius: 10px;text-align: center;	
+background-color: #6cd900;color: black;
+height: 28px;width: 155px;font-weight: bold;
+}
+
+#submit{
+border-radius: 10px;	
+background-color: #E0FFFF;
+height: 28px;width: 195px;font-weight: bold;
+}
+#submit:hover{background-color: red; color: white; text-decoration: underline; cursor: pointer;}
