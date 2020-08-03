@@ -22,7 +22,7 @@
 <div class="content-left">
 	<div class="row1">
 		<div class="contentl formaut">
-			<form action="<?php echo URL.'login/run';?>" method="post">			
+			<form action="<?php echo URL.'Login/Run';?>" method="post">			
 				<div id="inner-grid">
 					<div id="a">Programme : 
 					<?php 
@@ -37,7 +37,7 @@
 					</div>
 					<div id="b">Nom d'utilisateur :  <input id="bb"  type="text"     name="login"    value="tibaredha"  required=""   /></div>
 					<div id="c">Mot de passe :       <input id="cc"  type="password" name="password" value="030570"     required=""   /></div>
-					<div id="d"><a class="urlx" href="<?php echo URL;?>register">S'inscrire</a>&nbsp;&nbsp;&nbsp;<a class="urlx" href="<?php echo URL;?>register/forget">Mot de passe oublié</a> </div>
+					<div id="d"><a class="urlx" href="<?php echo URL;?>Register">S'inscrire</a>&nbsp;&nbsp;&nbsp;<a class="urlx" href="<?php echo URL;?>Register/Forget">Mot de passe oublié</a> </div>
 					
 					<div id="e"><input type="checkbox" id="remember" name="remember" value="1"> Se souvenir de moi</div>
 					<div id="f"><input id="dd" onclick="playSound()"  type="submit" value="Envoyer"/> </div>

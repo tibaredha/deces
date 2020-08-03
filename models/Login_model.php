@@ -47,7 +47,7 @@ class Login_Model extends Model
 		{
 			// Session::init();
 		    Session::set('errorlogin', "Nom d'utilisateur ou mot de passe incorrect fourni.");
-			header('location: '.URL.'login');
+			header('location: '.URL.'Login');
 		}
 		
 	}

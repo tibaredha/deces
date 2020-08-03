@@ -2,23 +2,25 @@
 
 class Register extends Controller {
 
+    private $views="Register";
+
 	function __construct() {
 		parent::__construct();
 		// $this->affichage($url1);	code ascii =     |	Alt+ 0124   //$this->affichage($data);	
 	}
 	
-	function index() {
-	    $this->view->title = 'register';
-		$this->view->msg = 'register';
+	function Index() {
+	    $this->view->title = $this->views.'Register';
+		$this->view->msg = $this->views.'Register';
 		$this->view->wilayaListview = $this->model->Wilaya() ;
-		$this->view->render('register/index');
+		$this->view->render($this->views.'/Index');
 	}
 	
 	function captchaVerif($var1,$var2) {
 			
 			if(empty($var1) || empty($var2) ) 
 			{
-				header('location: '.URL.'Register');	
+				header('location: '.URL.$this->views);	
 			} 
 			else 
 			{
@@ -28,7 +30,7 @@ class Register extends Controller {
 				}
 				else 
 				{
-				header('location: '.URL.'Register');
+				header('location: '.URL.$this->views);
 				} 
 			}			
 		}
@@ -51,7 +53,7 @@ class Register extends Controller {
 		else 
 		{
 			// echo "non verifier"	;
-			header('location: '.URL.'register');
+			header('location: '.URL.$this->views);
 		}    
 	}
 	// confirmation
@@ -112,15 +114,6 @@ class Register extends Controller {
 		$this->model->userSingleList2($data) ;
 		$this->affichage($data);	
 	}
-	
-
-	
-	
-	
-	
-	
-	
-	
 	
 	
 }

@@ -6,7 +6,7 @@
   grid-gap: 5px;
 }
 
-#wilayarg,#structurerg,#role,#dd,#ee,#ff,#gg {background: yellow; text-align: center ; border-radius: 5px;width: 50%;height: 100%;}
+#comb_wilayas,#comb_structure,#role,#dd,#ee,#ff,#gg {background: yellow; text-align: center ; border-radius: 5px;width: 50%;height: 100%;}
 #hh {background: #00cc00; text-align: center;border-radius: 5px;width: 100%;height: 100%; color: white;}
 #hh:hover {background: red;color: #fff;}
 #gg1 {background: green;text-align: center;border-radius: 5px;  height: 100%;}
@@ -22,10 +22,10 @@
 <div class="content-left">
 	<div class="row1">
 		<div class="contentl formaut">	
-			<form class="tabaut"action="<?php echo URL;?>register/Registerrun" method="post">	
+			<form class="tabaut"action="<?php echo URL;?>Register/Registerrun" method="post">	
 				<div id="inner-grid">
-					<div id="a">Wilaya :             <?php  $this->Wilaya("comb_wilayas","comb_wilayas","comb_wilayas","17000","Djelfa",$this->wilayaListview);                           //HTML::WILAYA('wilaya','wilayarg','wilaya','wil','17000','DJELFA') ;?></div>
-					<div id="b">Structure :          <?php  $this->structure('comb_structure','comb_structure','comb_structure','01','EPH_MOHAD_ABDELKADER');?></div>
+					<div id="a">Wilaya :             <?php  $this->Wilaya("comb_wilayas","comb_wilayas","comb_wilayas","17000","Djelfa",$this->wilayaListview);?></div>
+					<div id="b">Structure :          <?php  $this->Structure('comb_structure','comb_structure','comb_structure','01','EPH_MOHAD_ABDELKADER');?></div>
 					<div id="c">E-mail :             <input id="ee" type="text"     name="Email"    value="tibaredha@yahoo.fr"  required=""   /></div>
 					<div id="d">Nom d'utilisateur :  <input id="ff" type="text"     name="login"    value="tibaredha"           required="" /></div>
 					<div id="e">Mot de passe :       <input id="gg" type="password" name="password" value="030570"              required="" /></div>

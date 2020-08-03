@@ -33,7 +33,7 @@ class Register_Model extends Model
 		{
 		Session::init();
 		Session::set('errorregister', $msgr);
-		header('location: ' . URL . 'register');
+		header('location: ' . URL . 'Register');
 	    }
 		else 
 		{
@@ -46,7 +46,7 @@ class Register_Model extends Model
 			{	
 				Session::init();
 				Session::set('errorregister', 'Username already exists.');
-				header('location: ' . URL . 'register');
+				header('location: ' . URL . 'Register');
 			} 
 			else 
 			{
@@ -68,7 +68,7 @@ class Register_Model extends Model
 						$this->db->update("users", $postData2, "id =".$user_id );
 						Session::init();
 						Session::set('errorlogin', 'Votre inscription est termin&eacute;e << '.$data['login'].' >> vous pouvez maintenant vous connecter.');
-					    header('location: ' . URL . 'login');
+					    header('location: ' . URL . 'Login');
 					break;	
 					case 2 : // mail
 						$Subject='Confirmation de votre compte';
