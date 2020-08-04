@@ -8,18 +8,18 @@
 			echo '<li><a href="'.URL.'">Certificat de deces</a></li>';
 			echo '<li><a href="'.URL.'Dashboard">Dashboard</a></li>';
 			echo '<li><a href="'.URL.'Dashboard/Nouveau">Nouveau</a></li>';
+			echo '<li><a href="'.URL.'views/Dashboard/Adminer.php">Adminer</a></li>';
+		    // echo '<li><a href="'.URL.'pdf/TCPDF.php">TCPDF</a></li>';
+		    // echo '<li><a href="'.URL.'pdf/FPDF.php">FPDF</a></li>';
+		    // echo '<li><a href="'.URL.'pdf/FPDI-FPDF.php">FPDI-FPDF</a></li>';
+		    // echo '<li><a href="'.URL.'pdf/FPDI-TCPDF.php">FPDI-TCPDF</a></li>';
 		}
 		else 
 		{
 			echo '<li><a href="'.URL.'">Home</a></li>';
 		}
 		?>
-		
-	  <!--
-	  <li><a href="pdf/TCPDF.php">TCPDF</a></li>
-	  <li><a href="pdf/FPDF.php">FPDF</a></li>
-	  <li><a href="pdf/FPDI-FPDF.php">FPDI-FPDF</a></li>
-	  <li><a href="pdf/FPDI-TCPDF.php">FPDI-TCPDF</a></li>-->
+	  <!---->
 	</ul>
 </div>
 <div class="contact">

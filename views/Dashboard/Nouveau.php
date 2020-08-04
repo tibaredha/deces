@@ -46,7 +46,7 @@
 										<label for="comb_commune">Commune de déces:</label><?php $this->Commune("comb_communed","comb_communed","comb_communed","914","Ain-oussera"); ?>
 									</div>
 									<div id="c">
-										<label for="ldéces">Date de déces :</label><input type="text" id="ldéces" name="ldéces" value="">	
+										<label for="ldéces">Date de déces :</label><input type="text" id="ldéces" name="ldéces" value="<?php echo date("d-m-Y"); ?>">	
 									</div>
 								
 									<div id="a1">
@@ -77,7 +77,7 @@
 										   <label for="comb_commune">Commune de naissance:</label><?php $this->Commune("comb_commune","comb_commune","comb_commune","914","Ain-oussera"); ?> 
 									</div>
 									<div id="c3">
-										<label for="ldnaisance">Date de naissance :</label><input type="text" id="ldnaisance" name="ldnaisance" value="">	
+										<label for="ldnaisance">Date de naissance :</label><input type="text" id="ldnaisance" name="ldnaisance" value="<?php echo date("d-m-Y"); ?>">	
 									</div>
 								
 								    <div id="a4">

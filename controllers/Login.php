@@ -1,4 +1,5 @@
 <?php
+
 class Login extends Controller {
 	
 	private $views="Login";
